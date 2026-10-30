@@ -1,0 +1,7 @@
+name: "verify-auth-token"
+description: "Verify Auth Token Composite Action"
+runs:
+  using: "composite"
+  steps:
+    - run: echo "Executing verify-auth-token"
+      shell: bash
